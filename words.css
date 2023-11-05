@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Handlee', cursive;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    color: white;
+    gap: 30px;
+}
+h1 {
+    font-size: 67px;
+}
+h2 {
+    font-size: 57px;
+}
+.rightLetters {
+    display: flex;
+    gap: 10px;
+    
+}
+.letters {
+    display: flex;
+    gap: 10px;
+}
+.rightLetters div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 47px;
+    cursor: pointer;
+}
+.letters div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

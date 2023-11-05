@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./zima.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* color: #556B2F; */
+    color: white;
+    font-weight: bold;
+    
+}
+h1 {
+    font-size: 4rem;
+}
+.countdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5%;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+}
+span {
+    font-size: 1.3rem;
+}
